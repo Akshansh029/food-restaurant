@@ -40,7 +40,9 @@
 }
 #book{
     background-color: rgba(206, 171, 83, 0.8);
-    color: black;
+}
+#book a{
+    color:white;    
 }
 .hero{
     width: 100%;
@@ -81,12 +83,12 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.items{
+.food{
     text-align: center;
     color: white;
     font-family: 'Poppins',sans-serif;
 }
-.items img{
+.food img{
     width: 95px;
     height: 95px;
     border-image: 0px;
@@ -247,4 +249,93 @@
     font-family: 'Poppins',sans-serif;
     color: rgb(67, 67, 67);
     line-height: 35px;
+}
+.specialitiesheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+.specialitiesheadings h1{
+    font-size: 100px;
+        font-family: 'Alex brush', cursive;
+        font-weight: 400;
+        color: rgba(206, 171, 83, 0.8);
+}
+.specialitiesheadings h2{
+    font-size: 55px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        line-height: 65px;
+        margin-top: -60px;
+        color: rgb(67, 67, 67);
+}
+.menuitems{
+    padding: 40px 150px 80px 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.item{
+    height: 230px;
+    width: 300px;
+}
+#item1{
+    background: url(/Epicurian_food_restaurant/Images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#item3{
+    background: url(/Epicurian_food_restaurant/Images/Special-mutton-biryani.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#item6{
+    background: url(/Epicurian_food_restaurant/Images/Spaghetti-pasta.jpeg);
+    background-size: cover;
+    background-position: 0px -35px;
+}
+#item8{
+    background: url(/Epicurian_food_restaurant/Images/coffee-muffins.webp);
+    background-size: cover;
+    background-position: center;
+}
+#item9{
+    background: url(/Epicurian_food_restaurant/Images/Chicken-pepperoni-pizza.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#item11{
+    background: url(/Epicurian_food_restaurant/Images/Blueberry-pie-cheesecake.webp);
+    background-size: cover;
+    background-position: center;
+}
+#item2, #item4, #item5, #item7,#item10,#item12{
+    padding: 30px 20px 30px 20px;
+}
+#item2 h3, #item4 h3, #item5 h3, #item7 h3,#item10 h3,#item12 h3{
+    font-size: 22px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: rgb(67, 67, 67);
+    padding-bottom: 15px;
+}
+#item2 p, #item4 p, #item5 p, #item7 p,#item10 p,#item12 p{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    color: rgb(67, 67, 67);
+    padding-bottom: 15px;
+}
+#item5,#item7{
+    width: 292px;
+}
+.item button{
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(206, 171, 83, 0.8);
 }
