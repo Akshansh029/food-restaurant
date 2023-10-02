@@ -44,7 +44,7 @@
 }
 .hero{
     width: 100%;
-    height: 93.2vh;
+    height: 95vh;
     background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(/Epicurian_food_restaurant/Images/hero-image.avif);
     background-size: cover;
     background-position: center;
@@ -96,6 +96,7 @@
 .aboutsection{
     width: 100%;
     height: 133vh;
+    margin-top: 40px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -195,4 +196,55 @@
     width: 300px;
     margin-top: -15px;
     line-height: 26px;
+}
+.services{
+    width: 100%;
+    height: 90vh;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+.servicesheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicesheadings h1{
+    font-size: 100px;
+    font-family: 'Alex brush', cursive;
+    font-weight: 400;
+    color: rgba(206, 171, 83, 0.8);
+}
+.servicesheadings h2{
+    font-size: 55px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        line-height: 65px;
+        margin-top: -60px;
+        color: rgb(67, 67, 67);
+}
+.servicescards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.cards{
+    height: fit-content;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cards h3{
+    margin: 30px 0px 20px 0px;
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+}
+.cards p{
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(67, 67, 67);
+    line-height: 35px;
 }
