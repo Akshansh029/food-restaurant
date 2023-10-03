@@ -50,7 +50,7 @@
     background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(/Epicurian_food_restaurant/Images/hero-image.avif);
     background-size: cover;
     background-position: center;
-    /* padding-top: 250px; */
+    background-attachment:scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +203,7 @@
     width: 100%;
     height: 90vh;
     padding: 50px;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 .servicesheadings{
     display: flex;
@@ -338,4 +338,180 @@
     border-radius: 2px;
     color: white;
     background-color: rgba(206, 171, 83, 0.8);
+}
+.chefsection{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    padding-top: 50px;
+}
+.chefheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.chefheadings h1 {
+    font-size: 100px;
+    font-family: 'Alex brush', cursive;
+    font-weight: 400;
+    color: rgba(206, 171, 83, 0.8);
+}
+
+.chefheadings h2 {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 65px;
+    margin-top: -60px;
+    color: rgb(67, 67, 67);
+}
+.chefdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
+.chefimage{
+    height: 320px;
+    width: 255px;
+    border: 0px;
+    border-radius: 10px;
+}
+#chefimage1{
+    background: url(/Epicurian_food_restaurant/Images/Chef1.webp);
+    background-position: center;
+    background-size: cover;
+}
+#chefimage2{
+    background: url(/Epicurian_food_restaurant/Images/Chef2.jpg);
+    background-position: center;
+        background-size: cover;
+}
+#chefimage3{
+    background: url(/Epicurian_food_restaurant/Images/Chef3.jpeg);
+    background-position: center;
+        background-size: cover;
+}
+#chefimage4{
+    background: url(/Epicurian_food_restaurant/Images/Chef4.avif);
+    background-position: center;
+        background-size: cover;
+}
+.chefmedia{
+    display: flex;
+    flex-direction: row;
+}
+.chefname{
+    margin: 30px 0px 5px 5px;
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    color: rgb(67, 67, 67);
+    letter-spacing: 0.5px;
+}
+.chefpost{
+    margin: 0px 0px 15px 5px;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+
+}
+.chefmedia img{
+    width: 22px;
+    height: 22px;
+    margin: 0px 5px;
+}
+.blogsection{
+    width: 100%;
+    height: 110vh;
+    padding: 40px 25px;
+    background-color: #f6f6f6;
+}
+.blogheadings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+.blogheadings h1 {
+    font-size: 100px;
+    font-family: 'Alex brush', cursive;
+    font-weight: 400;
+    color: rgba(206, 171, 83, 0.8);
+}
+.blogheadings h2 {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 65px;
+    margin-top: -60px;
+    color: rgb(67, 67, 67);
+}
+.blogposts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+}
+.blogs{
+    background-color: white;
+    height: 440px;
+}
+.blogimage {
+    height: 250px;
+    width: 380px;
+}
+
+#blogimage1 {
+    background: url(/Epicurian_food_restaurant/Images/Asian-restaurant.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+#blogimage2 {
+    background: url(/Epicurian_food_restaurant/Images/Spices.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#blogimage3 {
+    background: url(/Epicurian_food_restaurant/Images/farm-to-dining.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.blogdate{
+    color: rgb(155, 155, 155);
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    margin: 15px 20px;
+}
+.blogname{
+    color: black;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin: 0px 20px 15px 20px;
+}
+.blogdetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+    font-size: 18px;
+    font-family: 'Poppins',sans-serif;
+}
+.blogcomments{
+    display: flex;
+    align-items: center;
+}
+.blogdetails span{
+    color: #a7a7a7;
+}
+.blogdetails .blogcomments img{
+    height: 25px;
+    width: 25px;
+    margin-right: 6px;
 }
