@@ -515,3 +515,103 @@
     width: 25px;
     margin-right: 6px;
 }
+.footer{
+    height: 70vh;
+    width: 100%;
+    padding: 60px 120px;
+    background-color: #1a1a1a;
+}
+.footer-sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-card{
+    height: 300px;
+    width: 325px;
+    padding: 0px 30px;
+    /* background-color: grey; */
+}
+#weekdays{
+    list-style-type: none;
+}
+.footer-card h1{
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.footer-card-2{
+    margin: 25px 0px;
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    line-height: 25px;
+}
+.footer-card-2 span {
+    margin-left: 40px;
+}
+.footer-card-2 li{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-row{
+    width: 150px;
+}
+#img1{
+    background: url(/Epicurian_food_restaurant/Images/insta-post1.jpeg);
+}
+.foot-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.foot-socialmedia{
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    background-color: #3a3a3a;
+}
+.footer-card input{
+    width: 250px;
+    height: 50px;
+    margin-bottom: 7px;
+    background-color: #3a3a3a;
+    border: 0px;
+    border-radius: 2px;
+}
+::placeholder{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    color: #6b6b6b;
+}
+.footer-card button{
+    width: 250px;
+    height: 50px;
+    border: 0px;
+    border-radius: 2px;
+}
+.footer-card button{
+    background-color: rgb(202, 176, 109);
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+}
+.footer-card button a{
+    text-decoration: none;
+    color: white;
+}
+.footer-sec2{
+    margin: 25px 0px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
