@@ -38,8 +38,23 @@
 #home a{
     color: rgba(206, 171, 83, 0.8);
 }
+#about:hover{
+    background-color: #e5e5e5;
+}
+#menu:hover{
+    background-color: #e5e5e5;
+}
+#stories:hover{
+    background-color: #e5e5e5;
+}
+#contact:hover{
+    background-color: #e5e5e5;
+}
 #book{
     background-color: rgba(206, 171, 83, 0.8);
+}
+#book:hover{
+    background-color: rgba(165, 137, 67, 0.8);
 }
 #book a{
     color:white;    
@@ -334,10 +349,17 @@
 }
 .item button{
     padding: 10px 15px 10px 15px;
-    border: 0px;
+    border: 2px solid rgba(206, 171, 83, 0.8);
     border-radius: 2px;
     color: white;
     background-color: rgba(206, 171, 83, 0.8);
+    transition: all 0.1s ease;
+}
+.item button:hover{
+    transform: translateY(-5px);
+    border: 2px solid rgba(206, 171, 83, 0.8);
+    background-color: white;
+    color: rgba(206, 171, 83, 0.8);
 }
 .chefsection{
     width: 100%;
@@ -378,6 +400,10 @@
     width: 255px;
     border: 0px;
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+.chefimage:hover{
+    transform: scale(1.07,1.07);
 }
 #chefimage1{
     background: url(/Epicurian_food_restaurant/Images/Chef1.webp);
@@ -459,6 +485,10 @@
 .blogs{
     background-color: white;
     height: 440px;
+    transition: all 0.3s;
+}
+.blogs:hover{
+    transform: scale(1.07,1.07);
 }
 .blogimage {
     height: 250px;
@@ -583,6 +613,8 @@
     height: 50px;
     margin-bottom: 7px;
     background-color: #3a3a3a;
+    color: white;
+    text-align: center;
     border: 0px;
     border-radius: 2px;
 }
@@ -597,11 +629,13 @@
     height: 50px;
     border: 0px;
     border-radius: 2px;
-}
-.footer-card button{
     background-color: rgb(202, 176, 109);
     font-size: 16px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-card button:hover{
+    background-color: rgb(159, 138, 85);
+    font-size: 17px;
 }
 .footer-card button a{
     text-decoration: none;
