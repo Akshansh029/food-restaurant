@@ -12,9 +12,9 @@
         <div class="logo"><h2>Epicurian</h2></div>
         <div class="tabs">
             <div class="tab" id="home"><a href="#">Home</a></div>
-            <div class="tab" id="about"><a href="#">About</a></div>
-            <div class="tab" id="menu"><a href="#">Menu</a></div>
-            <div class="tab" id="stories"><a href="#">Stories</a></div>
+            <div class="tab" id="about"><a href="#aboutsection">About</a></div>
+            <div class="tab" id="menu"><a href="#specialties">Menu</a></div>
+            <div class="tab" id="stories"><a href="#blogsection">Stories</a></div>
             <div class="tab" id="contact"><a href="#">Contact</a></div>
             <div class="tab" id="book"><a href="#">Book a table</a></div>
         </div>
@@ -24,19 +24,19 @@
         <div class="restag">Nutritious & Tasty</div>
         <hr>
         <div class="fooditems">
-            <div class="items" id="item1">
+            <div class="food" id="food1">
                 <img src="/Epicurian_food_restaurant/Images/grilled-chicken-sandwich.jpg" alt="">
                 <p>Grilled Chicken Sandwich</p>
             </div>
-            <div class="items" id="item2">
+            <div class="food" id="food2">
                 <img src="/Epicurian_food_restaurant/Images/Lasagna.jpg" alt="">
                 <p>Tomato Cheese Lasagna</p>
             </div>
-            <div class="items" id="item1">
+            <div class="food" id="food3">
                 <img src="/Epicurian_food_restaurant/Images/noodles.jpeg" alt="">
                 <p>Beshamel Sauce Pasta</p>
             </div>
-            <div class="items" id="item1">
+            <div class="food" id="food4">
                 <img src="/Epicurian_food_restaurant/Images/coffee-muffins.webp" alt="">
                 <p>Coffee Muffins</p>
             </div>
@@ -57,11 +57,207 @@
         </div>
         <div class="stats">
             <div class="statsdetails" id="years"><span>18</span><br>years of experience</div>
-            <div class="statsdetails" id="menu"><span>100</span><br>Menu/dishes</div>
+            <div class="statsdetails" id="menus"><span>100</span><br>Menu/dishes</div>
             <div class="statsdetails" id="staff"><span>50</span><br>staff</div>
             <div class="statsdetails" id="customer"><span>15,000</span><br>happy customers</div>
             <div class="statsdetails" id="smallpara">Where passion meets gastronomy. Discover culinary masterpieces with global flavors in an elegant setting,
             igniting a sensory celebration at every visit.</div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="servicesheadings">
+            <h1>Services</h1>
+            <h2>Catering Services</h2>
+        </div>
+        <div class="servicescards">
+            <div class="cards" id="card1">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFBklEQVR4nO1b62/bVBT3/7h0dMAoDNAkPiBNSGMabEgD8WGABOILIBCP8U6avoZY1za0W6FoHc6jad5pkmZJmqRxbP8DF/2OY89L4rix3ThN/OEoJ/feY5/zO+eee32uzcmyzKaZOLduLIktlly/RgR+6gAo8j8w3n+OqBj+cboAaNUyLBKcZeHADBH41lF2egBIhW6Q5/P/fk4EPrlxncmyNPkAVLMhMjiycJG1jytE4NFWzf416QBIbH/1Chl7uBfQ2sGjLX7vimkUIGEm1pxLntwoAajltsjQ2N3LTBLbOqPa1Ia+Wv7hwGsU+TuOJk/O7gWG8Uh664Me73dHQebBh4bySJRImHzAR6Qkz5y7ABSH8Ehk8SUaJzSKPX1Co0B90cU5Q/nU5i0ak/vnUyLw6c333QOgNaRHwsELpHT7uEr/E2tvU/SARzJEXzj4fF/Z5pM9rV9oHhKB5/0+6nMFgNSQHkluvKtMgdjv9F+NHPCl6K/EY4nsJ5vZ/kiJMv57XfR9R23Z7Y9HD0DTgkfqxV1FJnBeMxgEHm3g66XdvrKYGsr0KWhtQv1AmTZLc6MHIGPRI6XIzwSSavxT8rFS5BdDuejSyzQOU0ydOuAVAF4ZPQBRGx6pF3ZYujN9lGlzix0VdgbKZLdva1NElVP5zMPbLgCwZN8j+hxgRrh2dPlST+TEli+xVj0/egCyFj0CsHrDXyF1RTAiRFj270+08eDRZtUG2Q4AVj1iZPww0TDM2FMDQLboESPlzYyyEzmnBoBswSNWAXAichwFIGHRI3YBsAO+owDwFj0ycQDIIzLEA8DvRQDzpoB/hDmgltuiSq36DH8WCbonN95htfyD4QAoPP7GdeWdpsJ/354MgFqncBmef44KF0KzbDm83Cbofhj9jWwxKrhy3Q0IewyGoNsGOEWoM8AmVKRMAQhTVecca59hz/eLBCUnvHACAOZnabAo1F1X3CmSpLYCQGDGHIBo5xHX7nP2OFGrrpTcY8uvmgOQ6hQ1KulV1xV3iiqpe2RTKvSeOQClTrU2sXZ1iNNaiR08+pLo1GUef03L9DAyiftXyaZyfNEcALFVY5GFFzsCCye6CZZLdb1Va/7jIlOOB7U6pSQemwMgI2Qy652kcb5zjmeEttSp6c883X0FZuimg2TKe/OOyChLtbEMdFfPG4yO3jkj5PS7KBx8IiegBC62G3Qkhnm1v/qWNgb1fuWA06dNoWr6Pp0DSqJAv/iPdkXGR+OtyBTDP2n3hQ7QBTpBN+gIXVGU0dtgZCdnBgBq/IO2mAgtRIwqB6RjK68NlEG/3iNWZCrpNa00b6zbnH0AxHaDwg+7KFoiAz76TYVuUo4QhUaPLMnsL7Nk6CaLrbxOewv8Igs/SaxQvyMyQoOmDlYuOELVDbpCZ8jYBkA+UaYdX/IA8DsYAQndef5ZaXMUAH5C2jwAZMtT4BrtCc5Sm5cE/d4yyLx9gN/bCDHLqwA/hqRf6/udUuv7becAfgxJn+m7n/q6+70k6PeSIPOSoN9bBZhhEsw/+sLg1dXJp9jdy4xT3/KeRoosXmScKBxpn6vg7U/9pyyTSLXcJgvPo1LsI572Ac1KnNBQP1yqZjboAwa3lXWKxPYxa5ajLLfzmfJxB73lfufZjRDe8d/7443JD/vg7DOHKlw3Uqj0JtevK1XWiTH6Aov/+SY72P2q5wtVzu3wdJs4txVwm/4HohouXQBTKyEAAAAASUVORK5CYII=">
+                <h3>Birthday Party</h3>
+                <p>Celebrate in style with us! Our elegant venue and tailored menus make your birthday unforgettable.</p>
+            </div>
+            <div class="cards" id="card2">
+                <img src="data:image/png;base64,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">
+                <h3>Business Meetings</h3>
+                <p>Boost productivity in our versatile spaces with top amenities, perfect for successful gatherings.</p>
+            </div>
+            <div class="cards" id="card3">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFNklEQVR4nO2aWZPbRBCA9R8JkCWEI0AgEI6lQhGggHAFCooHoAhQVHiAKopiY+99Xzlr2WTjUz53ba/Xx/qSJc0faKrbluL1Sr5ljTZ+6NpEMxp1f+7pmekegTEGj7MIditgtwh2K4CiKlXIiFMQXn0fvO5nwOsag9DyOKR9f4Mql082gGr5AELL74Jn4glDCcy9CpV85IQCUFWIrH1AhgbnL0A+vg5KtQiqUoFiagtCy5dqEGZfAbmSdRaAaikNie2fSXnPjVP0N7H9C8jljN6nkLhTM37uPMhS/tgYqiJBZP0j6pPYvuYcAOWcCP7pF41deuYlkAq71C9+5xt6lgm6TMeqHMaoj2/qLKiqzD8AVZEgOPcaKY2/XjkbJJcuZ/wQXr1MzzHYofv7p1+g/1eLyZZjauNJhT3+AeRjK6SsuHARFFk60qbIJQjMvlz71UPTer92Y4qLb1HfSj7KP4Dk9jVSFpcwo/bUwz9qLj15lv7u3vu+5XgYG7yup8DrehpUucI/gL2tH2u/sOg2bC+mHxyJCQeBf1uOh8EP+8VufjFw45kVANBwVDi68TEwph5rV6ol8Eyc0gEUkvcMx6mWM+Qd2MfrOg3lrOgMAHIlB173GVIcpwNudMyCWvO8VqQC7QVit74il68ZPwa52KolxjOrlkFU2HvjSd1IDHTRm59D4r+fYN/zJ4iLb+pt2cg8JO//BuGV9468g//evfstLYNWGc8aAeB+PLVzndZps21po6CCuDabSaMxvQgGvlbj+9xjHY+FKw/ahjaaAkjtXO9LYScIrkCmAAL19bl04LHU5UhUVVfK8m/RyvNQ9wRTAJ4hKsTT9wTeFBoBYCMPAFumgH/6eeqAAeOkTYFieoe+hadPUwDJB7/bsjRp38cjcnNbZO1yy/ZuBW00BaAq8tAhYDpM+z4a2217t8YbJVQEu6Oz3VNNGAFgIw+AQU8BnGvZyAJENz4F/8w5OtjgISt260vIxddoK/yovwr53U2I375KW1XsiwnVyMYnkA3PGh5guJ4ClcPYkeOukYRWLoFUTFGuoF1wC86/DuVc2BkApMM4+Kaeo/cRAiZItXw/Zniy4Tmq9GA7/tpUM6gXPrA0hrUELTGCOYXQ0jvU7ps8A5V8mG8AqqroCqOrKyYJTKz8RNY/1L+DqXKjogiNqUiUFCFPWHiDlmpuAeTjq3WXvUB1ALN+mBMMzJ7XNzrtip8IQZtSmD3iFkD89lV6LxOaadkPa3y+yWfJCzqt/OaiSzR2dPMKvwAC9bndSfWmVjA5njE2E4wNODauKNwC8NWDnyIddv1uJ8AoGLpP8wtAXLhI72FhdNAAcHXRVgtuAext/UDv7Xv/GjiAtP8fGjt+9zt+ARTrZ24McO2qvd1ItbQP/ql6riK1xS8ARivB1/omqPEiRK+C8QTvCtVWgM96GmOoAJRqCUJLbw8EAhovLo3rm6Beg+vQzwJyJadDQMWNaoPtQRb0+0F4FtC2yI4AwPqEMEjjbQPAeoQwaONtBcC6hGCF8bYDYB1CsMp4LgCwNhCsNJ4bAMwEgtXGcwWA1SGIi4/2CdodYauM5w4Aa/IEq43nEgCr7/KwUpO4/+tAtsyOA8CGKCMAE316QHTzCl1xa+zjpGd9A/AYDOCkZyMAE316QGhpnJISjX2c9Kz/IKiqTcVMZz3rGoB/5lwt/5beMX3JKaJdzQ+0qCcIzQ/w4rJG7aSI0d0gUwCqItELnV6a5lnQBrobpEidA2CPmQh2K2C3CHYrYLcIditgt/wPG94Gsgrb8wAAAAAASUVORK5CYII=">
+                <h3>Wedding Party</h3>
+                <p>Start forever here. Our enchanting venue and exquisite catering create dream weddings filled with love and joy.</p>
+            </div>
+        </div>
+    </div>
+    <div class="specialties" id="specialties">
+        <div class="specialitiesheadings">
+            <h1>Specialities</h1>
+            <h2>Our Menu</h2>
+        </div>
+        <div class="menuitems">
+            <div class="row" id="row1">
+                <div class="item" id="item1"></div>
+                <div class="item" id="item2">
+                    <h3>Griled Beaf <br> with potatoes</h3>
+                    <p>Meat, Potatoes, Rice, <br> Tomatoes</p>
+                    <button>Order now</button>
+                </div>
+                <div class="item" id="item3"></div>
+                <div class="item" id="item4">
+                    <h3>Special <br>mutton biryani</h3>
+                    <p>Mutton, Spices, Rice, <br> Herbs</p>
+                    <button>Order now</button>
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="item" id="item5"><h3>Italian <br> Spaghetti pasta</h3>
+                <p>Spaghetti, Sauce, Olive oil, <br> Cheese</p>
+                <button>Order now</button></div>
+                <div class="item" id="item6"></div>
+                <div class="item" id="item7">
+                    <h3>Coffee <br> Muffins</h3>
+                    <p>Coffee, Flour, Sugar, Butter</p>
+                    <button>Order now</button>
+                </div>
+                <div class="item" id="item8"></div>
+            </div>
+            <div class="row" id="row3">
+                <div class="item" id="item9"></div>
+                <div class="item" id="item10">
+                    <h3>Chicken<br> peperroni pizza</h3>
+                    <p>Dough, Chicken, Pepperoni, Cheese</p>
+                    <button>Order now</button>
+                </div>
+                <div class="item" id="item11"></div>
+                <div class="item" id="item12">
+                    <h3>Blueberries<br> pie cheesecake</h3>
+                    <p>Cream cheese, Blueberries, Crust, Eggs</p>
+                    <button>Order now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chefsection" id="chef">
+        <div class="chefheadings">
+            <h1>Chef</h1>
+            <h2>Our Master Chefs</h2>
+        </div>
+        <div class="chefdetails">
+            <div class="chefs" id="chef1">
+                <div class="chefimage" id="chefimage1"></div>
+                <div class="chefname">Wolfgang Hartmann</div>
+                <div class="chefpost">Restaurant Owner</div>
+                <div class="chefmedia">
+                    <div class="cheftwitter"><img src="/Epicurian_food_restaurant/Images/icons8-twitter-50.png" alt=""></div>
+                    <div class="cheffacebook"><img src="/Epicurian_food_restaurant/Images/icons8-facebook-50.png" alt=""></div>
+                    <div class="chefgoogle"><img src="/Epicurian_food_restaurant/Images/icons8-google-plus-50.png" alt=""></div>
+                    <div class="chefinstagram"><img src="/Epicurian_food_restaurant/Images/icons8-instagram-50.png" alt=""></div>
+                </div>
+            </div>
+            <div class="chefs" id="chef2">
+                <div class="chefimage" id="chefimage2"></div>
+                <div class="chefname">Antoine Dupont</div>
+                <div class="chefpost">Head chef</div>
+                <div class="chefmedia">
+                    <div class="cheftwitter"><img src="/Epicurian_food_restaurant/Images/icons8-twitter-50.png" alt=""></div>
+                    <div class="cheffacebook"><img src="/Epicurian_food_restaurant/Images/icons8-facebook-50.png" alt=""></div>
+                    <div class="chefgoogle"><img src="/Epicurian_food_restaurant/Images/icons8-google-plus-50.png" alt=""></div>
+                    <div class="chefinstagram"><img src="/Epicurian_food_restaurant/Images/icons8-instagram-50.png" alt=""></div>
+                </div>
+            </div>
+            <div class="chefs" id="chef3">
+                <div class="chefimage" id="chefimage3"></div>
+                <div class="chefname">Isabella Sanchez</div>
+                <div class="chefpost">Chef</div>
+                <div class="chefmedia">
+                    <div class="cheftwitter"><img src="/Epicurian_food_restaurant/Images/icons8-twitter-50.png" alt=""></div>
+                    <div class="cheffacebook"><img src="/Epicurian_food_restaurant/Images/icons8-facebook-50.png" alt=""></div>
+                    <div class="chefgoogle"><img src="/Epicurian_food_restaurant/Images/icons8-google-plus-50.png" alt=""></div>
+                    <div class="chefinstagram"><img src="/Epicurian_food_restaurant/Images/icons8-instagram-50.png" alt=""></div>
+                </div>
+            </div>
+            <div class="chefs" id="chef4">
+                <div class="chefimage" id="chefimage4"></div>
+                <div class="chefname">Marcello Rossi</div>
+                <div class="chefpost">Chef</div>
+                <div class="chefmedia">
+                    <div class="cheftwitter"><img src="/Epicurian_food_restaurant/Images/icons8-twitter-50.png" alt=""></div>
+                    <div class="cheffacebook"><img src="/Epicurian_food_restaurant/Images/icons8-facebook-50.png" alt=""></div>
+                    <div class="chefgoogle"><img src="/Epicurian_food_restaurant/Images/icons8-google-plus-50.png" alt=""></div>
+                    <div class="chefinstagram"><img src="/Epicurian_food_restaurant/Images/icons8-instagram-50.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blogsection" id="blogsection">
+        <div class="blogheadings">
+            <h1>Blog</h1>
+            <h2>Recent Post</h2>
+        </div>
+        <div class="blogposts">
+            <div class="blogs" id="blog1">
+                <div class="blogimage" id="blogimage1"></div>
+                <div class="blogdate">6 September, 2022</div>
+                <div class="blogname">Taste the delicious foods <br> in Asia</div>
+                <div class="blogdetails">
+                    <p>Read more</p>
+                    <div class="blogcomments"><img src="/Epicurian_food_restaurant/Images/Comment.png" alt=""> <span>3</span></div>
+                </div>
+            </div>
+            <div class="blogs" id="blog2">
+                <div class="blogimage" id="blogimage2"></div>
+                <div class="blogdate">7 November, 2022</div>
+                <div class="blogname">Sustainable Eating: Tips for <br> Eco-Friendly Dining</div>
+                <div class="blogdetails">
+                    <p>Read more</p>
+                    <div class="blogcomments"><img src="/Epicurian_food_restaurant/Images/Comment.png" alt=""> <span>3</span></div>
+                </div>
+            </div>
+            <div class="blogs" id="blog3">
+                <div class="blogimage" id="blogimage3"></div>
+                <div class="blogdate">28 February, 2023</div>
+                <div class="blogname">Quick and Delicious One-Pot <br> Meals for Busy Weeknights</div>
+                <div class="blogdetails">
+                    <p>Read more</p>
+                    <div class="blogcomments"><img src="/Epicurian_food_restaurant/Images/Comment.png" alt=""> <span>3</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-sec1">
+            <div class="footer-card" id="foot-about">
+                <h1>Epicurian</h1>
+                <p class="footer-card-2">Epicurian: Where passion meets gastronomy. Discover culinary masterpieces with global flavors in an elegant setting,
+                igniting a sensory celebration at every visit.</p>
+                <div class="foot-media">
+                    <div class="foot-socialmedia" id="foot-twitter"><img src="/Epicurian_food_restaurant/Images/twitter-white.png" alt="" width="23px"></div>
+                    <div class="foot-socialmedia" id="foot-facebook"><img src="/Epicurian_food_restaurant/Images/white-facebook-icon-png-4.png" alt="" width="23px" style="margin: -3px 0px 0px -6px;"></div>
+                    <div class="foot-socialmedia" id="foot-instagram"><img src="/Epicurian_food_restaurant/Images/insta.png" alt="" width="25px"></div>
+                </div>
+            </div>
+            <div class="footer-card" id="foot-open-hours">
+                <h1>Open Hours</h1>
+                <ul class="footer-card-2" id="weekdays">
+                    <li>Monday <span>9:00-23:00</span></li>
+                    <li>Tuesday <span>9:00-23:00</span></li>
+                    <li>Wednesday <span>9:00-23:00</span></li>
+                    <li>Thursday <span>9:00-23:00</span></li>
+                    <li>Friday <span>9:00-02:00</span></li>
+                    <li>Saturday <span>9:00-02:00</span></li>
+                    <li>Sunday <span>9:00-02:00</span></li>
+                </ul>
+            </div>
+            <div class="footer-card" id="foot-newsletter">
+                <h1>Newsletter</h1>
+                <p class="footer-card-2">Discover culinary masterpieces with global flavors in an elegant setting</p>
+                <form action="">
+                    <input type="text" placeholder="Enter email address">
+                    <button><a href="#">Subscribe</a></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-sec2">
+            <p>Copyright ©2023 All rights reserved</p>
         </div>
     </div>
 </body>

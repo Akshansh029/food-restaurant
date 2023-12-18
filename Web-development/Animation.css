@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 70vh;
+    width: 70vw;
+    background-color: #bababa;
+    border: 2px solid black;
+    margin: 100px auto;
+    padding: 20px;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    background: rgb(0, 132, 255);
+    border: 0px;
+    border-radius: 50px;
+    animation: around 10s cubic-bezier(0.445, 0.045, 0.355, 1) 2s infinite;
+}
+@keyframes around {
+    0%{
+        background: rgb(0, 132, 255);
+    }
+    25%{
+        background: rgb(255, 40, 40);
+        transform: translateX(830px);
+    }
+    50%{
+        background: rgb(42, 255, 56);
+        transform: translate(830px, 350px);
+    }
+    75%{
+        background: rgb(219, 255, 36);
+        transform: translateY(350px);
+    }
+    100%{
+        background: rgb(0, 132, 255);
+        transform: translate(0px);
+    }
+}

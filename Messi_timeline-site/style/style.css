@@ -104,10 +104,20 @@ h2{
 }
 #box1{
     float: left;
+    transition: all 1s ease-in-out 0.2s;
+}
+#box1:hover{
+    transform: translateX(640px);
 }
 #box2, #box4, #box6, #box8, #box10,#box12, #box14,#box16,.thankyou{
     float: right;
     clear: left;
+}
+#box2, #box4, #box6, #box8, #box10,#box12, #box14,#box16{
+    transition: all 1s ease-in-out 0.2s;
+}
+#box2:hover, #box4:hover, #box6:hover, #box8:hover, #box10:hover,#box12:hover, #box14:hover,#box16:hover{
+    transform: translateX(-640px);
 }
 #box2 img,#box5 img,#box6 img,#box10 img,#box12 img, #box13 img, #box17 img{
     margin-top: 10px;
@@ -115,11 +125,19 @@ h2{
 #box3,#box5,#box7,#box9,#box11,#box13,#box15{
     float: left;
     clear: right;
+    transition: all 1s ease-in-out 0.2s;
+}
+#box3:hover,#box5:hover,#box7:hover,#box9:hover,#box11:hover,#box13:hover,#box15:hover{
+    transform: translateX(640px);
 }
 #box17{
     float: left;
     clear: right;
     margin-bottom: 50px;
+    transition: all 1s ease-in-out 0.2s;
+}
+#box17:hover{
+    transform: translateX(640px);
 }
 footer{
     clear: both;
