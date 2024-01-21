@@ -449,6 +449,7 @@
     width: 22px;
     height: 22px;
     margin: 0px 5px;
+    cursor: pointer;
 }
 .blogsection{
     width: 100%;
@@ -486,6 +487,7 @@
     background-color: white;
     height: 440px;
     transition: all 0.3s;
+    cursor: pointer;
 }
 .blogs:hover{
     transform: scale(1.07,1.07);
@@ -607,6 +609,7 @@
     align-items: center;
     margin: 0px 5px;
     background-color: #3a3a3a;
+    cursor: pointer;
 }
 .footer-card input{
     width: 250px;
