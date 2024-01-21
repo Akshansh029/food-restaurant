@@ -62,7 +62,7 @@
 .hero{
     width: 100%;
     height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(/Epicurian_food_restaurant/Images/hero-image.avif);
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../Images/hero-image.avif);
     background-size: cover;
     background-position: center;
     background-attachment:scroll;
@@ -129,7 +129,7 @@
 .chefpic{
     height: 520px;
     width: 310px;
-    background: url(/Epicurian_food_restaurant/Images/chefpic.webp);
+    background: url(../Images/chefpic.webp);
     background-position: center;
     background-size: cover;
 }
@@ -137,7 +137,7 @@
     height: 520px;
     width: 310px;
     margin-top: 30px;
-    background: url(/Epicurian_food_restaurant/Images/pexels-yente-van-eynde-2403391.jpg);
+    background: url(../Images/pexels-yente-van-eynde-2403391.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -298,32 +298,32 @@
     width: 300px;
 }
 #item1{
-    background: url(/Epicurian_food_restaurant/Images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background: url(../Images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
 #item3{
-    background: url(/Epicurian_food_restaurant/Images/Special-mutton-biryani.jpeg);
+    background: url(../Images/Special-mutton-biryani.jpeg);
     background-size: cover;
     background-position: center;
 }
 #item6{
-    background: url(/Epicurian_food_restaurant/Images/Spaghetti-pasta.jpeg);
+    background: url(../Images/Spaghetti-pasta.jpeg);
     background-size: cover;
     background-position: 0px -35px;
 }
 #item8{
-    background: url(/Epicurian_food_restaurant/Images/coffee-muffins.webp);
+    background: url(../Images/coffee-muffins.webp);
     background-size: cover;
     background-position: center;
 }
 #item9{
-    background: url(/Epicurian_food_restaurant/Images/Chicken-pepperoni-pizza.jpeg);
+    background: url(../Images/Chicken-pepperoni-pizza.jpeg);
     background-size: cover;
     background-position: center;
 }
 #item11{
-    background: url(/Epicurian_food_restaurant/Images/Blueberry-pie-cheesecake.webp);
+    background: url(../Images/Blueberry-pie-cheesecake.webp);
     background-size: cover;
     background-position: center;
 }
@@ -406,22 +406,22 @@
     transform: scale(1.07,1.07);
 }
 #chefimage1{
-    background: url(/Epicurian_food_restaurant/Images/Chef1.webp);
+    background: url(../Images/Chef1.webp);
     background-position: center;
     background-size: cover;
 }
 #chefimage2{
-    background: url(/Epicurian_food_restaurant/Images/Chef2.jpg);
+    background: url(../Images/Chef2.jpg);
     background-position: center;
         background-size: cover;
 }
 #chefimage3{
-    background: url(/Epicurian_food_restaurant/Images/Chef3.jpeg);
+    background: url(../Images/Chef3.jpeg);
     background-position: center;
         background-size: cover;
 }
 #chefimage4{
-    background: url(/Epicurian_food_restaurant/Images/Chef4.avif);
+    background: url(../Images/Chef4.avif);
     background-position: center;
         background-size: cover;
 }
@@ -498,19 +498,19 @@
 }
 
 #blogimage1 {
-    background: url(/Epicurian_food_restaurant/Images/Asian-restaurant.webp);
+    background: url(../Images/Asian-restaurant.webp);
     background-position: center;
     background-size: cover;
 }
 
 #blogimage2 {
-    background: url(/Epicurian_food_restaurant/Images/Spices.jpeg);
+    background: url(../Images/Spices.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 #blogimage3 {
-    background: url(/Epicurian_food_restaurant/Images/farm-to-dining.jpeg);
+    background: url(../Images/farm-to-dining.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -591,7 +591,7 @@
     width: 150px;
 }
 #img1{
-    background: url(/Epicurian_food_restaurant/Images/insta-post1.jpeg);
+    background: url(../Images/insta-post1.jpeg);
 }
 .foot-media{
     display: flex;
